@@ -1,0 +1,114 @@
+---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 12/9/22 1:46 AM
+Description: Exception in server tick loop
+
+java.lang.NoClassDefFoundError: org/lwjgl/input/Keyboard
+	at shukaro.artifice.recipe.BoxCraftingHandler.onCrafting(BoxCraftingHandler.java:28)
+	at cpw.mods.fml.common.registry.GameRegistry.onItemCrafted(GameRegistry.java:321)
+	at net.minecraft.inventory.SlotCrafting.func_82870_a(SlotCrafting.java:118)
+	at net.minecraft.inventory.Container.func_75144_a(SourceFile:237)
+	at net.minecraft.network.NetServerHandler.func_72523_a(NetServerHandler.java:897)
+	at net.minecraft.network.packet.Packet102WindowClick.func_73279_a(SourceFile:31)
+	at net.minecraft.network.TcpConnection.func_74428_b(TcpConnection.java:461)
+	at net.minecraft.network.NetServerHandler.func_72570_d(NetServerHandler.java:134)
+	at net.minecraft.network.NetworkListenThread.func_71747_b(NetworkListenThread.java:53)
+	at net.minecraft.server.dedicated.DedicatedServerListenThread.func_71747_b(SourceFile:30)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:677)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:275)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:573)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:470)
+	at net.minecraft.server.ThreadMinecraftServer.run(SourceFile:573)
+Caused by: java.lang.ClassNotFoundException: org.lwjgl.input.Keyboard
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at cpw.mods.fml.relauncher.RelaunchClassLoader.findClass(RelaunchClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 15 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.5.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_351, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1469221552 bytes (1401 MB) / 2115502080 bytes (2017 MB) up to 2863661056 bytes (2731 MB)
+	JVM Flags: 2 total; -Xmx3G -Xms2G
+	AABB Pool Size: 2670 (149520 bytes; 0 MB) allocated, 2398 (134288 bytes; 0 MB) used
+	Suspicious classes: FML and Forge are installed
+	IntCache: cache: 0, tcache: 0, allocated: 1, tallocated: 63
+	FML: MCP v7.51 FML v5.2.23.737 Minecraft Forge 7.8.1.737 61 mods loaded, 61 mods active
+	mcp{7.51} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	FML{5.2.23.737} [Forge Mod Loader] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Forge{7.8.1.737} [Minecraft Forge] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	CodeChickenCore{0.8.7.3} [CodeChicken Core] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	CoFHFramework{1.5.2.5} [CoFH Framework] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ImmibisMicroblocks{55.0.7} [Immibis's Microblocks] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	NotEnoughItems{1.5.2.28} [Not Enough Items] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	mod_bspkrsCore{v2.09(1.5.2)} [bspkrsCore] ([1.5.2]bspkrsCorev2.09.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	TreeCapitator{Forge 1.5.2.r14} [TreeCapitator] ([1.5.2]TreeCapitator.Forge.1.5.2.r14.Uni.CoreMod.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	CoFHCore{1.5.2.5} [CoFHCore] (CoFHCore-1.5.2.5.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	CoFHWorld{1.5.2.5} [CoFHWorld] (CoFHCore-1.5.2.5.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ImmibisMicroblocksInstallCheck{55.0.7} [Immibis's Microblocks (Checks for incorrect installation, ignore this)] (immibis-microblocks-55.0.7.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	DamageIndicatorsMod{2.7.0.1} [Damage Indicators] (1.5.2 DamageIndicators v2.7.0.1.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	AsgardShield_Core{2.0.4} [AsgardShield] (1.5.2AsgardShield_Core_2.0.4Forge.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ASAddon_Hallowed{2.0.0} [AS Addon- Hallowed] (1.5.2ASAddonHallowed_v2.0.0Forge.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	HarkenScythe_Core{2.1.6} [HarkenScythe] (1.5.2HarkenScythe_v2.1.6Forge.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ASAddon_HarkenScythe{2.0.0} [AS Addon- HarkenScythe] (1.5.2ASAddonHarkenScythe_v2.0.0Forge.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ASAddon_NetherEnder{2.0.0} [AS Addon- Nether-Ender] (1.5.2ASAddonNetherEnder_v2.0.0Forge.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ASAddon_ColorAPI{1.0.0} [ASAddon_ColorAPI] (1.5.2AsgardShield_Core_2.0.4Forge.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BetterStorage{0.6.2.23-hotfix2} [BetterStorage] ([1.5.2]BetterStorage_0.6.2.23-hotfix2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Artifice{1.5.2R1.1.2} [Artifice] (Artifice-1.1.2-182.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ArtificeCompat|Chisel{1.5.2R1.1.2} [Artifice Compat: Chisel] (Artifice-1.1.2-182.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ArtificeCompat|EE3{1.5.2R1.1.2} [Artifice Compat: EE3] (Artifice-1.1.2-182.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ArtificeCompat|Forestry{1.5.2R1.1.2} [Artifice Compat: Forestry] (Artifice-1.1.2-182.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ArtificeCompat|MFR{1.5.2R1.1.2} [Artifice Compat: MFR] (Artifice-1.1.2-182.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ArtificeCompat|Railcraft{1.5.2R1.1.2} [Artifice Compat: Railcraft] (Artifice-1.1.2-182.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ArtificeCompat|Vanilla{1.5.2R1.1.2} [Artifice Compat: Vanilla] (Artifice-1.1.2-182.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Backpack{1.12.13} [Backpack] (backpack-1.12.13-1.5.2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BattleTowers{1.3.4} [Battle Towers] (BattleTowers_1.5.2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BetterDungeons{1.8} [Better dungeons] (BetterDungeons.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	BiblioCraft{1.3.3} [BiblioCraft] (BiblioCraft[v1.3.3].zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ChestTransporter{1.1.6} [Chest Transporter] (chestTransporter_1.1.6_Universal.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	DimDoors{1.5.2R1.4.1RC1} [Dimensional Doors] (DimensionalDoors-1.5.2R1.4.1RC1-194.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	eplus{1.15.4} [Enchanting Plus] (EnchantingPlus-1.15.4.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ExtrabiomesXL{3.13.4} [ExtrabiomesXL] (ExtrabiomesXL-universal-1.5.2-3.13.4.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	hexxitgear{1.5.2R1.0} [Hexxit Gear] (HexxitGear-1.0-23.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ImmibisCore{55.1.6} [Immibis Core] (immibis-core-55.1.6.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	InfernalMobs{1.3.1} [Infernal Mobs] (InfernalMobs_1.5.2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Meteors{2.10.2} [Falling Meteors] (Meteors Mod V2.10.2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	More Bows{1.5_v1} [More Bows mod] (More bows 1.5.2_2 Forge.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Natura{2.1.5} [Natura] (Natura_1.5.2_2.1.5.1.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Natura|CompatMineFactoryReloaded{0.1} [Natura compat: MFR] (Natura_1.5.2_2.1.5.1.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	LegendGear{1.5.2} [LegendGear] (NMcCoy-LegendGear-1.5.2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ObsidiPlates{1.5.0} [Obsidian Pressure Plates] (obsidiplates-1.5.2-universal-1.5.0.13.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	OffLawn{1.0} [offLawn] (OffLawn-1.5.1.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ProjectZulu|Core{1.0.3.8} [Project Zulu Core] (ProjectZuluCompletev1.0.3.8.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ProjectZulu|Blocks{1.0.3.8} [Project Zulu Block and Items] (ProjectZuluCompletev1.0.3.8.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ProjectZulu|Dungeon{1.0.3.8} [Project Zulu Mobs] (ProjectZuluCompletev1.0.3.8.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ProjectZulu|Mobs{1.0.3.8} [Project Zulu Mobs] (ProjectZuluCompletev1.0.3.8.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	ProjectZulu|World{1.0.3.8} [Project Zulu World] (ProjectZuluCompletev1.0.3.8.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	QuantumCraft{1.01} [qCraft] (qCraft1.01.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	xreliquary{1.5.2} [Xeno's Reliquary] (Reliquary1.0.6d.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	rftl{1.0} [RottenFleshToLeather] (RottenFleshToLeather-1.5.1.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	AS_Ruins{10.3} [Ruins Spawning System] (Ruins_1.5.2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	secretroomsmod{4.6.0} [SecretRoomsMod] (SecretRoomsMod-universal-4.6.0.283.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	SoulShards{1.0.16} [Soul Shards] (SoulShards-1.0.36-universal-srg.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	TConstruct{1.5.2_1.4.3d7} [Tinkers' Construct] (TConstruct_1.5.2_1.4.3.final.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	TConstruct|CompatMineFactoryReloaded{0.1} [TConstruct Compat: MFR] (TConstruct_1.5.2_1.4.3.final.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	TwilightForest{1.18.1} [The Twilight Forest] (twilightforest-1.18.1.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	WildCaves3{0.4.2} [Wild Caves 3] (WildCaves3-0.4.2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	chococraft{2.8.8} [Torojima's ChocoCraft] (zzzChococraft_2.8.8.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 2479 (138824 bytes; 0 MB) allocated, 2108 (118048 bytes; 0 MB) used
+	Player Count: 2 / 20; [EntityPlayerMP['RuiTails'/85171, l='world', x=380.33, y=66.00, z=84.92], EntityPlayerMP['Bia'/189019, l='world', x=425.25, y=81.00, z=10.95]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
