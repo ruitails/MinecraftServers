@@ -1,2 +1,0 @@
-excl=0;C:\Users\ruita\OneDrive\Desktop\Hexxit_Server_v1.0.10\mods\resources\ruins\ocean\PirateShip.tml
-excl=45;C:\Users\ruita\OneDrive\Desktop\Hexxit_Server_v1.0.10\mods\resources\ruins\mountainous desert\Beacon.tml
