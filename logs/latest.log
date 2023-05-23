@@ -1,52 +1,105 @@
-[23:19:28] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:19:29] [ServerMain/INFO]: Loaded 7 recipes
-[23:19:30] [ServerMain/INFO]: Loaded 1179 advancements
-[23:19:30] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[23:19:30] [Server thread/INFO]: Loading properties
-[23:19:30] [Server thread/INFO]: Default game type: SURVIVAL
-[23:19:30] [Server thread/INFO]: Generating keypair
-[23:19:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:19:30] [Server thread/INFO]: Using default channel type
-[23:19:30] [Server thread/INFO]: Preparing level "world"
-[23:19:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:19:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:19:35] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[23:19:35] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[23:19:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[23:19:36] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[23:19:37] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[23:19:37] [Worker-Main-2/INFO]: Preparing spawn area: 3%
-[23:19:38] [Worker-Main-2/INFO]: Preparing spawn area: 5%
-[23:19:38] [Worker-Main-4/INFO]: Preparing spawn area: 6%
-[23:19:39] [Worker-Main-4/INFO]: Preparing spawn area: 9%
-[23:19:39] [Worker-Main-2/INFO]: Preparing spawn area: 11%
-[23:19:40] [Worker-Main-1/INFO]: Preparing spawn area: 12%
-[23:19:40] [Worker-Main-1/INFO]: Preparing spawn area: 15%
-[23:19:41] [Worker-Main-5/INFO]: Preparing spawn area: 17%
-[23:19:41] [Worker-Main-5/INFO]: Preparing spawn area: 20%
-[23:19:42] [Worker-Main-5/INFO]: Preparing spawn area: 23%
-[23:19:42] [Worker-Main-2/INFO]: Preparing spawn area: 26%
-[23:19:44] [Worker-Main-2/INFO]: Preparing spawn area: 28%
-[23:19:44] [Worker-Main-3/INFO]: Preparing spawn area: 28%
-[23:19:44] [Worker-Main-2/INFO]: Preparing spawn area: 29%
-[23:19:44] [Worker-Main-5/INFO]: Preparing spawn area: 32%
-[23:19:45] [Worker-Main-1/INFO]: Preparing spawn area: 35%
-[23:19:45] [Worker-Main-2/INFO]: Preparing spawn area: 38%
-[23:19:46] [Worker-Main-5/INFO]: Preparing spawn area: 42%
-[23:19:46] [Worker-Main-5/INFO]: Preparing spawn area: 44%
-[23:19:47] [Worker-Main-1/INFO]: Preparing spawn area: 48%
-[23:19:47] [Worker-Main-4/INFO]: Preparing spawn area: 52%
-[23:19:48] [Worker-Main-1/INFO]: Preparing spawn area: 55%
-[23:19:48] [Worker-Main-5/INFO]: Preparing spawn area: 59%
-[23:19:49] [Worker-Main-4/INFO]: Preparing spawn area: 63%
-[23:19:49] [Worker-Main-4/INFO]: Preparing spawn area: 67%
-[23:19:50] [Worker-Main-4/INFO]: Preparing spawn area: 69%
-[23:19:50] [Worker-Main-5/INFO]: Preparing spawn area: 74%
-[23:19:51] [Worker-Main-5/INFO]: Preparing spawn area: 78%
-[23:19:51] [Worker-Main-3/INFO]: Preparing spawn area: 82%
-[23:19:52] [Worker-Main-5/INFO]: Preparing spawn area: 85%
-[23:19:52] [Worker-Main-2/INFO]: Preparing spawn area: 88%
-[23:19:53] [Worker-Main-4/INFO]: Preparing spawn area: 92%
-[23:19:53] [Worker-Main-3/INFO]: Preparing spawn area: 97%
-[23:19:54] [Server thread/INFO]: Time elapsed: 19284 ms
-[23:19:54] [Server thread/INFO]: Done (23.187s)! For help, type "help"
+[00:00:07] [Server thread/INFO]: [RuiTails: Teleported RuiTails to -153.980000, 80.940000, 73.000000]
+[00:00:13] [Server thread/INFO]: [RuiTails: Teleported RuiTails to cruelmet]
+[00:00:13] [Server thread/WARN]: RuiTails moved too quickly! 361.2527963568384,-2.0,53.49294734957499
+[00:11:44] [Server thread/INFO]: cruelmet has made the advancement [Acquire Hardware]
+[00:12:22] [Server thread/INFO]: RuiTails has made the advancement [Acquire Hardware]
+[00:12:27] [Server thread/INFO]: cruelmet has made the advancement [Isn't It Iron Pick]
+[00:12:59] [Server thread/INFO]: RuiTails has made the advancement [Isn't It Iron Pick]
+[00:17:38] [Server thread/INFO]: RuiTails has made the advancement [Take Aim]
+[00:18:22] [Server thread/INFO]: cruelmet has made the advancement [Diamonds!]
+[00:22:40] [Server thread/INFO]: RuiTails has made the advancement [Diamonds!]
+[00:25:39] [Server thread/INFO]: RuiTails was slain by Zombie
+[00:25:48] [Server thread/INFO]: [RuiTails: Teleported RuiTails to cruelmet]
+[00:25:48] [Server thread/WARN]: RuiTails moved too quickly! 473.08734491162613,-128.0,518.9362542810921
+[00:25:48] [Server thread/WARN]: RuiTails moved too quickly! 473.08734491162613,-128.0,518.9362542810921
+[00:41:39] [Server thread/INFO]: [RuiTails: Gamerule keepInventory is now set to: true]
+[00:43:55] [Server thread/INFO]: cruelmet fell from a high place
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-12}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:09] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:10] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:10] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:10] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:10] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:10] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:10] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:10] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:10] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:10] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=0, y=0, z=0} gt{x=15, y=79, z=-13}
+[00:44:22] [Server thread/INFO]: [RuiTails: Teleported cruelmet to RuiTails]
+[00:45:10] [Server thread/INFO]: cruelmet has made the advancement [Not Today, Thank You]
+[00:50:56] [Server thread/INFO]: RuiTails drowned
+[00:51:03] [Server thread/INFO]: [RuiTails: Teleported RuiTails to cruelmet]
+[00:51:06] [Server thread/INFO]: cruelmet drowned
+[00:51:14] [Server thread/INFO]: [RuiTails: Teleported cruelmet to RuiTails]
+[00:54:11] [Server thread/INFO]: [RuiTails: Teleported cruelmet to RuiTails]
+[00:54:11] [Server thread/WARN]: cruelmet moved too quickly! 15.427223034956455,-42.0,74.07038597294172
+[01:00:33] [Server thread/INFO]: RuiTails has made the advancement [The Cutest Predator]
+[01:04:46] [Server thread/INFO]: RuiTails has made the advancement [Hot Stuff]
+[01:06:12] [Server thread/INFO]: cruelmet has made the advancement [Ice Bucket Challenge]
+[01:06:47] [Server thread/INFO]: RuiTails tried to swim in lava
+[01:06:54] [Server thread/INFO]: [RuiTails: Teleported RuiTails to cruelmet]
+[01:06:54] [Server thread/WARN]: RuiTails moved too quickly! 896.92940544242,-133.0,410.25841821455646
+[01:06:54] [Server thread/WARN]: RuiTails moved too quickly! 896.92940544242,-133.0,410.25841821455646
+[01:06:54] [Server thread/WARN]: RuiTails moved too quickly! 896.92940544242,-133.0,410.25841821455646
+[01:06:54] [Server thread/WARN]: RuiTails moved too quickly! 896.92940544242,-133.0,410.25841821455646
+[01:11:10] [Server thread/INFO]: RuiTails tried to swim in lava
+[01:11:14] [Server thread/INFO]: [RuiTails: Teleported RuiTails to cruelmet]
+[01:11:14] [Server thread/WARN]: RuiTails moved too quickly! 902.6217514217146,-131.0,400.5437241341709
+[01:11:14] [Server thread/WARN]: RuiTails moved too quickly! 902.6217514217146,-131.0,400.5437241341709
+[01:12:43] [Server thread/INFO]: RuiTails was slain by Zombie
+[01:12:51] [Server thread/INFO]: [RuiTails: Teleported RuiTails to cruelmet]
+[01:12:51] [Server thread/WARN]: RuiTails moved too quickly! 896.547279576408,-139.0,411.65542677765035
+[01:15:05] [Server thread/INFO]: cruelmet has made the advancement [Sweet Dreams]
+[01:21:14] [Server thread/INFO]: RuiTails was shot by Skeleton
+[01:21:20] [Server thread/INFO]: [RuiTails: Teleported RuiTails to cruelmet]
+[01:21:20] [Server thread/WARN]: RuiTails moved too quickly! 896.2417372059624,-138.0,408.7998265822188
+[01:31:37] [Server thread/INFO]: [RuiTails: Teleported cruelmet to RuiTails]
+[01:31:37] [Server thread/WARN]: cruelmet moved too quickly! -58.61606522299405,111.0,-12.094093167041649
+[01:31:37] [Server thread/WARN]: cruelmet moved too quickly! -58.61606522299405,111.0,-12.094093167041649
+[01:37:17] [Server thread/INFO]: RuiTails has made the advancement [Sweet Dreams]
+[01:40:10] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=670, y=68, z=494} gt{x=669, y=68, z=494}
+[01:40:10] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=670, y=68, z=494} gt{x=669, y=68, z=494}
+[01:46:27] [Server thread/INFO]: [RuiTails: Teleported RuiTails to cruelmet]
+[01:46:27] [Server thread/WARN]: RuiTails moved too quickly! 312.8331537197072,14.0,515.8547201748073
+[01:46:58] [Server thread/INFO]: [RuiTails: Gave 1 [Block of Emerald] to RuiTails]
+[01:47:20] [Server thread/INFO]: [RuiTails: Gave 1 [Emerald Ore] to RuiTails]
+[01:56:48] [Server thread/INFO]: cruelmet was slain by Zombie
+[02:03:59] [Server thread/INFO]: [RuiTails: Set the weather to clear]
+[02:09:31] [Server thread/INFO]: [RuiTails: Teleported cruelmet to RuiTails]
+[02:13:32] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=231, y=43, z=854} gt{x=232, y=44, z=854}
+[02:16:33] [Server thread/INFO]: cruelmet was blown up by Creeper
+[02:31:22] [Worker-Main-2/WARN]: Skipping Entity with id minecraft:camel
+[02:36:57] [Server thread/INFO]: [RuiTails: Teleported cruelmet to RuiTails]
+[02:38:29] [Server thread/INFO]: cruelmet was slain by Zombie
+[02:39:43] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=650, y=64, z=519} gt{x=652, y=63, z=520}
+[02:39:43] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=650, y=64, z=519} gt{x=652, y=63, z=520}
+[02:43:41] [Server thread/INFO]: RuiTails has made the advancement [Fishy Business]
+[02:44:56] [Server thread/INFO]: RuiTails lost connection: Disconnected
+[02:44:56] [Server thread/INFO]: RuiTails left the game
+[02:44:59] [Server thread/INFO]: cruelmet lost connection: Disconnected
+[02:44:59] [Server thread/INFO]: cruelmet left the game
+[02:45:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[02:45:02] [Server thread/INFO]: save<--[HERE]
+[02:45:08] [Server thread/INFO]: Stopping the server
+[02:45:08] [Server thread/INFO]: Stopping server
+[02:45:08] [Server thread/INFO]: Saving players
+[02:45:08] [Server thread/INFO]: Saving worlds
+[02:45:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:45:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:45:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:45:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:45:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:45:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:45:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
