@@ -35,7 +35,7 @@ if "%choice%"=="1" (
     echo Commit
     powershell -Command "git commit -m 'Saved world'"
     echo Push
-    powershell -Command "git push origin Hexxitt"
+    powershell -Command "git push origin Vanilla"
     PAUSE
 ) else if "%choice%"=="3" (
 
@@ -48,7 +48,7 @@ if "%choice%"=="1" (
     echo Commit
     powershell -Command "git commit -m 'Saved world'"
     echo Push
-    powershell -Command "git push origin Hexxitt"
+    powershell -Command "git push origin PombinhasReforged"
     PAUSE
 
 ) else if "%choice%"=="0" (
