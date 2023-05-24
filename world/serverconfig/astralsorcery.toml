@@ -186,6 +186,14 @@
 			#Range: 1 ~ 500
 			chargeCost = 150
 
+		[perks.key.bleed]
+			#Defines the duration of the bleeding effect when applied. Refreshes this duration when a it is applied again
+			#Range: 5 ~ 400
+			bleedDuration = 40
+			#Defines the base chance a bleed can/is applied when an entity is being hit by this entity
+			#Range: 0.01 ~ 1.0
+			bleedChance = 0.25
+
 		[perks.key.rampage]
 			#Defines the duration of the rampage in ticks
 			#Range: 10 ~ 100000
@@ -198,14 +206,6 @@
 			#Defines the chance per hit to apply additional effects.
 			#Range: 0.009999999776482582 ~ 0.20000000298023224
 			applicationChance = 0.07999999821186066
-
-		[perks.key.bleed]
-			#Defines the duration of the bleeding effect when applied. Refreshes this duration when a it is applied again
-			#Range: 5 ~ 400
-			bleedDuration = 40
-			#Defines the base chance a bleed can/is applied when an entity is being hit by this entity
-			#Range: 0.01 ~ 1.0
-			bleedChance = 0.25
 
 		[perks.key.growable]
 			#Sets the chance to try to see if a random plant near the player gets bonemeal'd.
