@@ -1,1 +1,1 @@
-###Vanilla
+### Repo for Minecraft Servers
