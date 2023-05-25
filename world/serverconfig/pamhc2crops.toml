@@ -15,28 +15,28 @@
 	"Probability of gardens generating" = 32
 
 ["Miscellaneous Features"]
-	#Disable/enable right-click harvesting of crops.
-	"Enable both for right-click harvesting for crops" = true
-	#Disable/enable grass blocks dropping seeds.
-	"Enable grass blocks dropping seeds" = false
-	#Disable/enable tall grass blocks dropping seeds.
-	"Enable tall grass blocks dropping seeds" = false
 	#Disable/enable fern blocks dropping seeds.
 	"Enable fern blocks dropping seeds" = false
+	#Disable/enable right-click harvesting of crops.
+	"Enable both for right-click harvesting for crops" = true
+	#Disable/enable tall grass blocks dropping seeds.
+	"Enable tall grass blocks dropping seeds" = false
+	#Disable/enable grass blocks dropping seeds.
+	"Enable grass blocks dropping seeds" = false
 
 ["Enable/Disable Garden World Generation"]
-	#Should arid gardens should generate in world
-	"Generate arid gardens" = true
 	#Should frost gardens should generate in world
 	"Generate frost gardens" = true
-	#Should tropical gardens should generate in world
-	"Generate tropical gardens" = true
-	#Should windy gardens should generate in world
-	"Generate windy gardens" = true
-	#Should shaded gardens should generate in world
-	"Generate shaded gardens" = true
+	#Should arid gardens should generate in world
+	"Generate arid gardens" = true
 	#Should soggy gardens should generate in world
 	"Generate soggy gardens" = true
+	#Should shaded gardens should generate in world
+	"Generate shaded gardens" = true
+	#Should windy gardens should generate in world
+	"Generate windy gardens" = true
+	#Should tropical gardens should generate in world
+	"Generate tropical gardens" = true
 
 ["Right-click Harvesting Settings"]
 	#Disable/enable right-click harvesting of crops
